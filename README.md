@@ -13,3 +13,5 @@ Compiled as a class project for DS 6600: Data Engineering 1 in the Ph.D. program
   * [Inidividual members' votes](https://htmlpreview.github.io/?https://github.com/eanelson01/contrans2023/blob/main/member_votes.html)
 
   * [House of Reps Elections Data](https://htmlpreview.github.io/?https://github.com/eanelson01/contrans2023/blob/main/elections_house.html)
+
+  * [Congress Bills](https://jsonhero.io/j/tFIMvBiwcNLk)
