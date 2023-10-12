@@ -8,7 +8,7 @@ RUN pip install --upgrade pip
 
 RUN pip install -r requirements.txt
 
-WORKDIR /contrans2023
+WORKDIR /ds6600_lab2
 
 EXPOSE 8888
 
