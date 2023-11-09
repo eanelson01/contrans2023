@@ -10,7 +10,18 @@ services:
       - ./settings.txt:/root/.jupyter/lab/user-settings/@jupyterlab/notebook-extension/tracker.jupyterlab-settings
     networks:
       - dbnetwork
-      
+  
+  mongo:
+    image: mongo:latest
+    env_file:
+      - .env
+    volumes:
+      - mongodata:/data/db
+    ports:
+      - "27017:27017"
+    networks:
+      - dbnetwork
+
   postgres:
     image: postgres:latest
     env_file: 
@@ -24,6 +35,7 @@ services:
 
 volumes:
   postgresdata:
+  mongodata:
 
 networks:
   dbnetwork:
